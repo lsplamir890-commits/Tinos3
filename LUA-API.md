@@ -116,6 +116,17 @@ Requests a system shutdown through the Cosmos power API.
 - **Returns:** no values.
 - **Side effects:** initiates system shutdown.
 
+### `Halt`
+
+```lua
+Halt()
+```
+
+Requests a system halt through the Cosmos power API.
+
+- **Returns:** no values.
+- **Side effects:** halts the system forever.
+
 ### `Reboot`
 
 ```lua
